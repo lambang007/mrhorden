@@ -37,7 +37,7 @@ sleep 2
 echo -e $cyan"███████▀▀▀░░░░░░░▀▀▀███████
 ████▀░░░░░░░░░░░░░░░░░▀████
 ███│░░░░░░░░░░░░░░░░░░░│███
-██▌│░░░░░░░░░░░░░░░░░░░│▐██
+██▌│░░░░░ Mr Horden░░░░░░│▐██
 ██░└┐░░░░░░░░░░░░░░░░░┌┘░██
 ██░░└┐░░░░░░░░░░░░░░░┌┘░░██
 ██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██
@@ -54,7 +54,7 @@ echo -e $cyan"███████▀▀▀░░░░░░░▀▀▀██
 ███████████████████████████"
 
 #
-figlet "System"
+figlet "FR13ND5"
 echo -e $blue"[====================================================[>"
 
 echo -e $yellow "TUNGGU SYSTEM SEDANG LOADING"
@@ -116,7 +116,7 @@ echo -e $green" 53) The Fat Rat"
 echo -e $green" 54) IPGeolocation"
 echo -e $green" 55) exit"
 echo -e $white""
-read -p "Hacking By Mr horden
+read -p "Tools By Mr horden
 █─━─━──━─━──━─━──━─━─━─≪✠≫➤➤➤" act;
 
 if [ $act = 01 ] || [ $act = 01 ]
