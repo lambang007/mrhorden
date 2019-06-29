@@ -30,7 +30,7 @@ read enter
 exit
 }
 
-figlet "MR Horden"
+figlet "Mr Horden"
 sleep 2
 echo -e $blue"[=====================================================[>"
 sleep 2
