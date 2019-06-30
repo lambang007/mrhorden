@@ -9,6 +9,9 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 
+#
+apt-get install figlet
+apt-get install neofetch
 echo -e $blue ""
 #
 echo
