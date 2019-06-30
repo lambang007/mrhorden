@@ -1,66 +1,95 @@
-#!/data/data/com.termux/files/usr/bin/bash
-# Auto Install Tools v.2.1
-
-# coded By Mr.Horden
+#!/system/xbin/bash
 # Bersihkan Layar
 clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
 
-blue='\e[0;34'
-cyan='\e[0;36m'
-green='\e[0;34m'
-okegreen='\033[92m'
-lightgreen='\e[1;32m'
-white='\e[1;37m'
-red='\e[1;31m'
-yellow='\e[1;33m'
+echo -e $blue ""
+#
+echo
+figlet "terminal"
+sleep 1
 
-###################################################
-# CTRL C
-###################################################
+echo
+figlet "Linux"
+sleep 1
+
+echo
+figlet "anda-sedang"
+sleep 1
+
+echo -e $purple ".."
+#
+echo
+figlet "menuju"
+sleep 1
+
+echo
+figlet "anonymous"
+sleep 1
+
+echo
+figlet "cyber;Horden"
+sleep 1
+
+echo -e $blue" SALAM ANONYMOUS "
+sleep 1
+echo -e $purple" dear jomblo "
+sleep 1
+echo -e $green" Masih loading "
+sleep 1
+echo -e $cyan" Please Waitttt"
+sleep 1
+echo -e $yellow" jangan sentuh hape saya "
+sleep 1
+echo -e $red"hacking by Mr horden"
+sleep 1
+echo -e $blue"Selamat menikmati "
+sleep 1
+
+# clear
+figlet "menjalankan"
+sleep 2
+echo -e $blue"[=============================================[>"
+sleep 2
+neofetch
+sleep 2
+echo -e $cyan"tenang"
+sleep 1
+#
+figlet "System"
+echo -e $blue"[=============================================[>"
+
+echo -e $yellow "Selamat datang"
+sleep 1
+echo -e $red "Di area"
+sleep 1
+echo -e $cyan "cyber"
+sleep 1
+echo -e  $purple "User root"
+sleep 1
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -e $yellow"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
-sleep 1
-echo -e $yellow"[#]> Terima kasih sudah make tools saya ... "
+echo  $red"[#]> (Ctrl + C ) Detected, 
+Trying To Exit ... "
 sleep 1
 echo ""
-echo -e $yellow"[#]> Mr.Horden Wuzz Here ... "
+echo  $yellow"[#]> Thank You For Using My 
+Tools ... "
+sleep 1
+echo ""
+echo  $white"[#]> WhiteHat Hacker Indonesia Was 
+Here ... "
 read enter
 exit
 }
-
-figlet "Mr Horden"
-sleep 2
-echo -e $blue"[=====================================================[>"
-sleep 2
-echo -e $cyan"███████▀▀▀░░░░░░░▀▀▀███████
-████▀░░░░░░░░░░░░░░░░░▀████
-███│░░░░░░░░░░░░░░░░░░░│███
-██▌│░░░░░ Mr Horden░░░░░░│▐██
-██░└┐░░░░░░░░░░░░░░░░░┌┘░██
-██░░└┐░░░░░░░░░░░░░░░┌┘░░██
-██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██
-██▌░│██████▌░░░▐██████│░▐██
-███░│▐███▀▀░░▄░░▀▀███▌│░███
-██▀─┘░░░░░░░▐█▌░░░░░░░└─▀██
-██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██
-████▄─┘██▌░░░░░░░▐██└─▄████
-█████░░▐█─┬┬┬┬┬┬┬─█▌░░█████
-████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████
-█████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████
-███████▄░░░░░░░░░░░▄███████
-██████████▄▄▄▄▄▄▄██████████
-███████████████████████████"
-
 #
-sleep 2
-figlet ">>>>>FR13ND5<<<<<"
-echo -e $blue"[====================================================[>"
-sleep 2
-echo -e $yellow "TUNGGU SYSTEM SEDANG LOADING"
-sleep 3
-echo ""
 echo -e $green" 01) Red Hawk"
 echo -e $green" 02) D-Tect"
 echo -e $green" 03) Hunner"
