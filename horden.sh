@@ -34,22 +34,16 @@ figlet "anonymous"
 sleep 1
 
 echo
-figlet "cyber;Horden"
+figlet "Cyber FR13ND5"
 sleep 1
 
 echo -e $blue" SALAM ANONYMOUS "
 sleep 1
-echo -e $purple" dear jomblo "
+echo -e $purple" Dear member FR13ND5 "
 sleep 1
 echo -e $green" Masih loading "
 sleep 1
 echo -e $cyan" Please Waitttt"
-sleep 1
-echo -e $yellow" jangan sentuh hape saya "
-sleep 1
-echo -e $red"hacking by Mr horden"
-sleep 1
-echo -e $blue"Selamat menikmati "
 sleep 1
 
 # clear
@@ -67,11 +61,9 @@ echo -e $blue"[=============================================[>"
 
 echo -e $yellow "Selamat datang"
 sleep 1
-echo -e $red "Di area"
+echo -e $red "Gunakan tool dengan benar"
 sleep 1
-echo -e $cyan "cyber"
-sleep 1
-echo -e  $purple "User root"
+echo -e $cyan "cyber FR13ND5"
 sleep 1
 trap ctrl_c INT
 ctrl_c() {
@@ -90,15 +82,15 @@ read enter
 exit
 }
 #
-echo -e $green" 01) Red Hawk"
-echo -e $green" 02) D-Tect"
-echo -e $green" 03) Hunner"
-echo -e $green" 04) WPScan"
-echo -e $green" 05) Webdav"
-echo -e $green" 06) Metasploit"
-echo -e $green" 07) Kali Nethunter"
-echo -e $green" 08) Ubuntu"
-echo -e $green" 09) Youtube Dl"
+echo -e $green" 1) Red Hawk"
+echo -e $green" 2) D-Tect"
+echo -e $green" 3) Hunner"
+echo -e $green" 4) WPScan"
+echo -e $green" 5) Webdav"
+echo -e $green" 6) Metasploit"
+echo -e $green" 7) Kali Nethunter"
+echo -e $green" 8) Ubuntu"
+echo -e $green" 9) Youtube Dl"
 echo -e $green" 10) viSQL "
 echo -e $green" 11) Weeman"
 echo -e $green" 12) WFDroid"
@@ -139,7 +131,7 @@ echo -e $green" 46) Information Gathering"
 echo -e $green" 47) com_fabrik exploiter"
 echo -e $green" 48) com foxcontact exploiter"
 echo -e $green" 49) gmail brute force"
-echo -e $green" 50) ezsploit"
+echo -e $green" 50) ddos"
 echo -e $green" 51) spammer-grab sms"
 echo -e $green" 52) spammer call toko-pedia"
 echo -e $green" 53) The Fat Rat"
@@ -149,7 +141,7 @@ echo -e $red""
 read -p " Tools By Mr horden
 █─━─━──━─━──━─━──━─━─━─≪✠≫➤➤➤" act;
 
-if [ $act = 01 ] || [ $act = 01 ]
+if [ $act = 1 ] || [ $act = 1 ]
 then
 clear
 echo -e $green" Installing Red Hawk "
@@ -161,7 +153,7 @@ git clone https://github.com/Tuhinshubhra/RED_HAWK
 echo -e $green" Done Install Cuk "
 fi
 
-if [ $act = 02 ] || [ $act = 02 ]
+if [ $act = 2 ] || [ $act = 2 ]
 then
 clear
 echo -e $green" Installing D-Tect "
@@ -173,7 +165,7 @@ git clone https://github.com/shawarkhanethicalhacker/D-TECT
 echo -e $red" Done Install Cuk"
 fi
 
-if [ $act = 03 ] || [ $act = 03 ]
+if [ $act = 3 ] || [ $act = 3 ]
 then
 clear
 echo -e $green" Installing Hunner "
@@ -185,7 +177,7 @@ git clone https://github.com/b3-v3r/Hunner
 echo -e $red" Done Install Cuk"
 fi
 
-if [ $act = 04 ] || [ $act = 04 ]
+if [ $act = 4 ] || [ $act = 4 ]
 then
 clear
 echo -e $green" Installing Wpscan "
@@ -204,7 +196,7 @@ cd ~/
 echo -e $red" Done Install Cuk"
 fi
 
-if [ $act = 05 ] || [ $act = 05 ]
+if [ $act = 5 ] || [ $act = 5 ]
 then
 clear
 echo -e $green" Installing Webdav "
@@ -222,7 +214,7 @@ cd ~/
 echo -e $red" Done Install Cuk"
 fi
 
-if [ $act = 06 ] || [ $act = 06 ]
+if [ $act = 6 ] || [ $act = 6 ]
 then
 clear
 echo -e $green" Installing Metasploit "
@@ -236,7 +228,7 @@ sh install.sh
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 07 ] || [ $act = 07 ]
+if [ $act = 7 ] || [ $act = 7 ]
 then
 clear
 echo -e $green" Installing Kali Nethunter "
@@ -250,7 +242,7 @@ sh kalinethunter
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 08 ] || [ $act = 08 ]
+if [ $act = 8 ] || [ $act = 8 ]
 then
 clear
 echo -e $green" Installing Ubuntu "
@@ -269,7 +261,7 @@ echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubunt
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 09 ] || [ $act = 09 ]
+if [ $act = 9 ] || [ $act = 9 ]
 then
 clear
 echo -e $green" Installing Youtube DL "
@@ -859,11 +851,14 @@ fi
 if [ $act = 50 ] || [ $act = 50 ]
 then
 clear
-echo -e $green" installing ezsploit "
+echo -e $green" installing ddos "
 sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
-git clone https://github.com/rand0m1ze/ezsploit
+apt-get install python2
+git clone https://github.com/lambang007/ddos
+cd ddos
+chmod +x *
 sleep 1
 echo -e $red" Done Install cuk "
 fi
